@@ -12,11 +12,11 @@ const Card = (props) => {
   };
   return (
     <button
-      className={`card relative h-[330px] w-[330px] ${props.customClass}`}
+      className={`card relative h-[320px] w-[320px] ${props.customClass}`}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >
-      <div className="flex flex-col bg-no-repeat bg-cover h-[330px] w-[330px]">
+      <div className="flex flex-col bg-no-repeat bg-cover h-[320px] w-[320px]">
         <img
           src={props.image}
           className={isHovering ? "opacity-10 transition duration-500" : ""}
@@ -25,31 +25,35 @@ const Card = (props) => {
         <div
           className={
             isHovering
-              ? "transition duration-500 card-overlay absolute px-4 pb-2 pt-8 opacity-100 font-light text-sm leading-[17px] text-left"
+              ? "transition duration-500 card-overlay absolute px-5 pb-2 pt-7 opacity-100 font-light text-sm leading-[17px] text-left"
               : "opacity-0"
           }
         >
-          <div className="flex flex-col space-y-2">
+          <div className="flex flex-col space-y-2.5">
             <div>
-              <span className="text-secondary font-bold">
-                Client:&nbsp;{props.client}
+              <span className="inline text-secondary font-bold mr-1">
+                Client:{props.client}
               </span>
-              {props.description}
-              <span className="text-primary">&nbsp;Pictured&nbsp;</span>
+              <span className="inline">{props.description}</span>
+
+              <span className="text-primary"> Pictured </span>
+
               {props.pictured}
             </div>
             <div>
-              {" "}
-              <span className="text-secondary font-bold">
-                Project Scope&nbsp;
+              <span className="text-secondary font-bold mr-1">
+                Project Scope
               </span>
               {props.scope}
             </div>
             <div>
-              <span className="text-secondary font-bold">Result&nbsp;</span>
+              <span className="text-secondary font-bold mr-1">Result</span>
               {props.result}
             </div>
-            <a href="mailto:marla @dekkerbabian" className="block text-primary">
+            <a
+              href="mailto:marla @dekkerbabian"
+              className="block font-bold text-primary"
+            >
               Contact us for more information
             </a>
           </div>
