@@ -9,25 +9,34 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="nav fixed w-full bg-white shadow-xl py-2 z-50">
-        <div className="max-w-screen-xl mx-auto relative flex justify-between lg:items-center py-1.5 px-5 sm:px-10">
-          <Link to="/" className="" onClick={() => setNavbarOpen(false)}>
-            <img src={Logo} alt="DekkerBabian Logo" className="w-full" />
-          </Link>
-
+      <div className="nav-bar fixed w-full shadow-xl z-50">
+        <div className="max-w-screen-xl mx-auto py-2.5 px-5">
+          <div className="flex items-center space-x-3">
+            <button
+              className="flex flex-col space-y-2.5"
+              onClick={() => setNavbarOpen((prev) => !prev)}
+            >
+              <div className="w-12 h-0.5 bg-primary"></div>
+              <div className="w-12 h-0.5 bg-primary"></div>
+              <div className="w-12 h-0.5 bg-primary"></div>
+            </button>
+            <Link to="/" className="" onClick={() => setNavbarOpen(false)}>
+              <img src={Logo} alt="DekkerBabian Logo" className="w-[200px]" />
+            </Link>
+          </div>
           <nav
             className={
               navbarOpen
-                ? "absolute lg:relative bg-[#FAF6EB] shadow-xl lg:shadow-none right-5 top-8 lg:right-0 lg:top-0 transition duration-1000"
-                : "hidden lg:block"
+                ? "absolute left-0 top-[102px] transition transform duration-500 opacity-100 translate-x-0"
+                : "opacity-0 -translate-x-full h-0"
             }
           >
-            <ul className="flex flex-col lg:flex-row p-7 lg:p-0 space-y-4 lg:space-y-0 lg:space-x-7 uppercase font-body text-right text-sm font-bold">
+            <ul className="bg-primary bg-opacity-80 flex flex-col pl-[78px] p-4 space-y-4 font-light text-sm">
               {links.map(({ name, path }, index) => {
                 return (
                   <li key={index}>
                     <NavLink
-                      className="text-text hover:text-primary"
+                      className="text-white"
                       to={path}
                       onClick={() => setNavbarOpen((prev) => !prev)}
                     >
@@ -38,15 +47,9 @@ const Navbar = () => {
               })}
             </ul>
           </nav>
-          <button
-            className="flex flex-col space-y-4"
-            onClick={() => setNavbarOpen((prev) => !prev)}
-          >
-            <div className="w-20 h-1 bg-"></div>
-          </button>
         </div>
       </div>
-      <div className="space h-40"></div>
+      <div className="space h-[102px]"></div>
     </div>
   );
 };
