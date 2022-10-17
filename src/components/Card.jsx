@@ -26,13 +26,13 @@ const Card = (props) => {
           className={
             isHovering
               ? "transition duration-500 card-overlay absolute px-5 pb-2 pt-7 opacity-100 font-light text-sm leading-[17px] text-left"
-              : "opacity-0"
+              : "opacity-0 hidden"
           }
         >
           <div className="flex flex-col space-y-2.5">
             <div>
               <span className="inline text-secondary font-bold mr-1">
-                Client:{props.client}
+                Client: {props.client}
               </span>
               <span className="inline">{props.description}</span>
 
@@ -51,7 +51,7 @@ const Card = (props) => {
               {props.result}
             </div>
             <a
-              href="mailto:marla @dekkerbabian"
+              href="mailto:marla@dekkerbabian.com"
               className="block font-bold text-primary"
             >
               Contact us for more information
