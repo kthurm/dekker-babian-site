@@ -1,6 +1,6 @@
 const MeetOurClients = () => {
   return (
-    <div className="relative max-w-screen-xl mx-auto grid grid-cols-2 md:grid-cols-4 font-light text-sm my-10">
+    <div className="relative max-w-screen-xl mx-auto grid grid-cols-2 md:grid-cols-4 font-light text-sm px-5 md:px-0 my-10">
       <div className="hidden md:block"></div>
 
       <div className="col-span-2 flex flex-col">
