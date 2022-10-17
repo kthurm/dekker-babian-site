@@ -288,7 +288,7 @@ export const projects = [
 
   {
     id: 20,
-    image: "./images/20.jsvg",
+    image: "./images/20.svg",
     client: "IntoTea",
     description:
       "A neighborhood tea shop, featuring over 100 varieties of tea, appeals to the discerning tea drinker.",
