@@ -1,10 +1,23 @@
 body {
   font-family: "Roboto Slab", serif;
 }
-.nav {
+#root {
+  @apply flex flex-col min-h-screen justify-between;
+}
+p {
+  line-height: 17px;
+}
+.nav-bar {
   background-color: #fff;
 }
-a {
+.nav-bar ul a {
+  color: #fff;
+}
+.nav-bar a.active {
+  font-weight: bold;
+}
+
+card a {
   @apply text-primary;
 }
 .no-hover {
@@ -17,4 +30,10 @@ a {
 
 .no-hover img {
   opacity: 1 !important;
+}
+
+.shadow-footer {
+  -webkit-box-shadow: 0px 1px 26px 2px rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0px 1px 26px 2px rgb(0 0 0 / 20%);
+  box-shadow: 0px 1px 26px 2px rgb(0 0 0 / 20%);
 }
