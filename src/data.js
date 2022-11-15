@@ -1,22 +1,17 @@
 export const links = [
   {
     name: "Portfolio",
-    path: "/portfolio",
+    path: "/portfolio/",
   },
 
   {
     name: "Meet Our Clients",
-    path: "/meetOurClients",
+    path: "/meetOurClients/",
   },
 
   {
     name: "A Strategic Approach",
-    path: "/strategicApproach",
-  },
-
-  {
-    name: "Inquiries",
-    path: "/inquiries",
+    path: "/strategicApproach/",
   },
 ];
 
