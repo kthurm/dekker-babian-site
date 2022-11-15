@@ -78,11 +78,13 @@ const StrategicApproach = () => {
       </div>
       <div className="relative max-w-screen-xl mx-auto flex justify-center">
         <img
-          src="./images/marla.jpg"
+          src="/images/marla.jpg"
+          alt="Marla Dekker"
           className="max-w-[200px] sm:max-w-[400px]"
         />
         <img
-          src="./images/kevork.jpg"
+          src="/images/kevork.jpg"
+          alt="Kevork Babian"
           className="max-w-[200px] sm:max-w-[400px]"
         />
       </div>
