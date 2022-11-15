@@ -9,10 +9,13 @@ import MeetOurClients from "./pages/MeetOurClients";
 import StrategicApproach from "./pages/StrategicApproach";
 import Inquiries from "./pages/Inquiries";
 import NotFound from "./pages/NotFound";
+import Privacy from "./pages/Privacy";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <div className="flex-grow h-full">
         <Routes>
@@ -21,6 +24,7 @@ function App() {
           <Route path="meetOurClients" element={<MeetOurClients />} />
           <Route path="strategicApproach" element={<StrategicApproach />} />
           <Route path="inquiries" element={<Inquiries />} />
+          <Route path="privacy" element={<Privacy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
