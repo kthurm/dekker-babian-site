@@ -9,28 +9,26 @@ const Navbar = () => {
   return (
     <div>
       <div className="nav-bar fixed w-full shadow-xl z-50">
-        <div className="max-w-screen-xl mx-auto py-2.5 px-5 grid grid-cols-2 md:grid-cols-4">
-          <div className="md:col-span-2 flex items-center space-x-3">
-            <button
-              className="flex flex-col space-y-2.5"
-              onClick={() => setNavbarOpen((prev) => !prev)}
-            >
-              <div className="w-8 md:w-12 h-0.5 bg-primary"></div>
-              <div className="w-8 md:w-12 h-0.5 bg-primary"></div>
-              <div className="w-8 md:w-12 h-0.5 bg-primary"></div>
+        <div className="max-w-screen-xl mx-auto py-2.5 px-5 lg:px-3 grid grid-cols-2 md:grid-cols-4 items-center">
+          <div className="md:col-span-3 flex items-center space-x-3">
+            <button onClick={() => setNavbarOpen((prev) => !prev)}>
+              <div className="flex flex-col space-y-2.5 py-4">
+                <div className="w-8 md:w-12 h-0.5 bg-primary"></div>
+                <div className="w-8 md:w-12 h-0.5 bg-primary"></div>
+                <div className="w-8 md:w-12 h-0.5 bg-primary"></div>
+              </div>
             </button>
             <Link to="/" className="" onClick={() => setNavbarOpen(false)}>
               <img src={Logo} alt="DekkerBabian Logo" className="w-[200px]" />
             </Link>
           </div>
-          <div className="pl-5 md:px-0 md:w-[200px] pt-1 text-[9px] sm:text-sm md:leading-[17px]">
-            Would you like information or do you have a question?
+          <div className="hidden sm:flex justify-end text-sm md:leading-[17px]">
             <a
               type="button"
               href="mailto:marla@dekkerbabian.com"
-              className="block text-primary"
+              className="block text-primary underline font-light"
             >
-              Contact Marla Dekker
+              Contact Us
             </a>
           </div>
           <nav
@@ -54,6 +52,9 @@ const Navbar = () => {
                   </li>
                 );
               })}
+              <li>
+                <a href="mailto:marla.dekker@dekkerbabian.com">Inquiries</a>
+              </li>
             </ul>
           </nav>
         </div>

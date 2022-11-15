@@ -92,7 +92,7 @@ const MeetOurClients = () => {
           <p>New York Hospital, Weill Cornell Medical Center</p>
         </div>
         <div>
-          <img src="./images/1.gif" className="w-[320px]" />
+          <img src="/images/40.gif" alt="Animated gif" className="w-[320px]" />
         </div>
       </div>
     </div>

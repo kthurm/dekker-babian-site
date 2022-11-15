@@ -1,22 +1,17 @@
 export const links = [
   {
     name: "Portfolio",
-    path: "/portfolio",
+    path: "/portfolio/",
   },
 
   {
     name: "Meet Our Clients",
-    path: "/meetOurClients",
+    path: "/meetOurClients/",
   },
 
   {
     name: "A Strategic Approach",
-    path: "/strategicApproach",
-  },
-
-  {
-    name: "Inquiries",
-    path: "/inquiries",
+    path: "/strategicApproach/",
   },
 ];
 
@@ -30,16 +25,16 @@ export const projects = [
   {
     id: 2,
     image: "./images/2.jpg",
-    client: "Goldman Sachs Community Teamworks",
+    client: "Bike New York 5 Boro Bike Tour",
     description:
-      "An international annual program to facilitate two days of employee volunteerism in 35 cities.",
+      "America’s largest charitable bike ride with 40,000 bikers on a 40-mile course in NYC.",
     pictured:
       "40,000 bikers pour through the start gate designed by Dekker Babian.",
 
     scope:
       "Dekker Babian designed, produced and supervised fabrication of all graphics for the annual Bike Tour for 4 years.",
 
-    result: "Events, Branding, Signage, Print, Web and Electronic Media",
+    result: "Events, Branding, Signage, Print, Web and Electronic Media.",
   },
 
   {
@@ -47,12 +42,12 @@ export const projects = [
     image: "./images/3.svg",
     client: "Goldman Sachs Community Teamworks",
     description:
-      "An international annual program to facilitate two days of employee volunteerism in 35 cities.",
+      "An annual international program to facilitate two days of employee volunteerism in 35 cities.",
     pictured: "Logotype designed by Dekker Babian.",
     scope:
-      "Communications strategy, Logotype, Web Site, Posters, Video, Exhibits and Premiums.",
+      "Communications Strategy, Logotype, Web Site, Posters, Video, Exhibits and Premiums.",
     result:
-      "We developed a strong brand identity, responded to tight deadlines and  communicated the campaign's message so that there was 85% participation the first year and 90% the second.  ",
+      "We developed a strong brand identity, responded to tight deadlines and communicated the campaign's message with 85% participation the first year and 90% the second.  ",
   },
 
   {
@@ -67,7 +62,7 @@ export const projects = [
       "A video to introduce Community Teamworks for recruiting and orientation of employees.",
 
     result:
-      "We developed a strong brand identity, responded to tight deadlines and  communicated the campaign's message so that there was 85% participation the first year and 90% the second.",
+      "We developed a strong brand identity, responded to tight deadlines and  communicated the campaign's message with 85% participation the first year and 90% the second.",
   },
 
   {
@@ -108,7 +103,7 @@ export const projects = [
     pictured: "Directional signs along the Bike Tour route.",
 
     scope:
-      "Start and finish gates, stage banners, directional signs, banners, maps, print and web graphics",
+      "Start and Finish Gates, Stage Banners, Directional Signs, Banners, Maps, Print and Web Graphics.",
 
     result: "The Bike Tour was executed flawlessly.",
   },
@@ -116,12 +111,12 @@ export const projects = [
   {
     id: 8,
     image: "./images/8.jpg",
-    client: "Jud Nelson Sculptor",
+    client: "Jud Nelson, Sculptor",
     description:
       "A definitive web site featuring the 40-year career of Jud Nelson, world renown sculptor.",
     pictured: "Web site home page.",
 
-    scope: "Concept, development, design, programming, promotion.",
+    scope: "Concept, Development, Design, Programming, Promotion.",
 
     result:
       "The elegant, easy-to-navigate site generates visits and responses from an international audience of art lovers and academics.",
@@ -151,7 +146,7 @@ export const projects = [
       "Invitation to the National Book Awards designed by Dekker Babian.",
 
     scope:
-      "The 66th Annual National Book Awards event materials including Awards Signage, Invitation, Journal, Web and social media.",
+      "The 66th Annual National Book Awards event materials including Awards Signage, Invitation, Journal, Web and Social Media.",
 
     result: "Dramatic graphics convey the suspense of the awards ceremony.",
   },
@@ -165,7 +160,7 @@ export const projects = [
     pictured:
       "The awards podium and stage sign design allow the event name to read in photos or videos with people of all heights at the podium.",
 
-    scope: "National Book Awards event graphics.",
+    scope: "National Book Awards Event Graphics.",
 
     result:
       "Photos and videos of winners used by the news media generate publicity for the National Book Awards.",
@@ -176,9 +171,9 @@ export const projects = [
     image: "./images/12.svg",
     client: "Composers Recordings Incorporated",
     description: "A recording label dedicated to contemporary classical music.",
-    pictured: "The logotype designed by Dekker Babian.",
+    pictured: "The logotype design by Dekker Babian.",
 
-    scope: "Branding Strategy, Logotype , Album Covers, Collateral materials. ",
+    scope: "Branding Strategy, Logotype, Album Covers, Collateral Materials. ",
 
     result:
       "The chiseled logotype signals strength and permanence for marketing avant-garde classical music.",
@@ -193,7 +188,7 @@ export const projects = [
     pictured: "Web site home page by Dekker Babian.",
 
     scope:
-      "Strategy, Naming, Logotype Identity, Exhibits, Posters, Web Site, Print, Premiums",
+      "Strategy, Naming, Logotype Identity, Exhibits, Posters, Web Site, Print, Premiums.",
 
     result:
       "Featuring extreme sports, Knowledge Exchange's marketing successfully launched for bond traders and soon expanded to all Goldman employees.",
@@ -207,7 +202,7 @@ export const projects = [
     pictured: "Logotype design by Dekker Babian.",
 
     scope:
-      "Branding Strategy, Logo and Identity, Stationery, Marketing Collateral, Recruiting Video and brochure, Web Site and Social Media",
+      "Branding Strategy, Logo and Identity, Stationery, Marketing Collateral, Recruiting Video and Brochure, Web Site and Social Media.",
 
     result:
       "Timeless branding positioned Galt to compete with larger, better known competitors. ",
@@ -224,7 +219,7 @@ export const projects = [
       "Dekker Babian defined the scope of the show and supervised a talented team to curate, build, write, photograph and promote the exhibit.",
 
     result:
-      "The crowded opening was attended by Rowland's collectors, art colleagues, collaborators and community, where the catalog was an invaluable resource for her work on display.",
+      "The crowded opening was attended by Rowland's collectors, art colleagues, collaborators and community. The catalog was an invaluable resource for the work on display.",
   },
 
   {
@@ -239,7 +234,7 @@ export const projects = [
       "Dekker Babian defined the scope of the show and supervised a talented team to curate, write, photograph and promote the exhibit.",
 
     result:
-      "The catalog weaves exquisite photographs of Rowland's art with text about Rowland's biography, influences and concepts in the creation of her art.",
+      "The catalog weaves exquisite photographs of Rowland's art with text of Rowland's biography, influences and concepts resulting in the creation of her art.",
   },
 
   {
@@ -250,10 +245,10 @@ export const projects = [
       "An international organization promoting the empowerment of women.",
     pictured: "Logotype by Dekker Babian.",
 
-    scope: "Branding and logo design by Dekker Babian for social media.",
+    scope: "Branding and Logo Design by Dekker Babian for Social Media.",
 
     result:
-      "The logotype projects forward from the background, symbolizing women's progress.",
+      "The logotype projects forward from the background, symbolizing progress.",
   },
 
   {
@@ -262,13 +257,13 @@ export const projects = [
     client: "Galt and Company",
     description: "Management consultants to Fortune 500 companies.",
     pictured:
-      "Dekker Babian designed the Galt web site home page featuring video of client businesses and an animated chart illustrating success.",
+      "Dekker Babian designed the Galt web site. The home page featuring video of client businesses and an animated chart illustrating success.",
 
     scope:
-      "Web site concept, design and implementation incorporating Branding, Marketing, Recruiting, Electronic Media",
+      "Web Site Concept, Design and Implementation incorporating Branding, Marketing, Recruiting, Electronic Media.",
 
     result:
-      "The web site positions Galt to compete for clients and employees against larger competitors.",
+      "The web site positions Galt for clients and employees against larger competitors.",
   },
 
   {
@@ -280,7 +275,7 @@ export const projects = [
     pictured:
       "Smack Down-Neoclassical vs Mid-century Modern Design gallery window.",
 
-    scope: "Web Site, Signage, Social Media, Curation, Interior Design",
+    scope: "Web Site, Signage, Social Media, Curation, Interior Design.",
 
     result:
       "To build awareness of the trends and the history of fine furniture design with a gallery and online show.",
@@ -294,10 +289,10 @@ export const projects = [
       "A neighborhood tea shop, featuring over 100 varieties of tea, appeals to the discerning tea drinker.",
     pictured: "Logotype design by Dekker Babian.",
 
-    scope: "Branding Strategy, Identity System, Signs, Collateral materials",
+    scope: "Branding Strategy, Identity System, Signs, Collateral Materials.",
 
     result:
-      "With branding that reinforced quality products and an inviting shop, IntoTea is a neighborhood mainstay.",
+      "Branding communicates quality products and an inviting shop, IntoTea is a neighborhood mainstay.",
   },
 
   {
@@ -309,7 +304,7 @@ export const projects = [
     pictured: "The retail web site home page.",
 
     scope:
-      "Business Concept, Name, Branding, Product Development, Promotion, Marketing, Social Media, Retail Spaces, Gallery Shows",
+      "Business Concept, Name, Branding, Product Development, Promotion, Marketing, Social Media, Retail Spaces, Gallery Shows.",
 
     result:
       "Featured numerous times by the NYTimes and on design blogs, townhouse.bz's curated collections sell to an international audience.",
@@ -323,7 +318,7 @@ export const projects = [
       "Property and asset management consulting to the commercial real estate market.",
     pictured: "Logotype design by Dekker Babian.",
 
-    scope: "Branding strategy, Logotype design.",
+    scope: "Branding Strategy, Logotype Design.",
 
     result:
       "Dekker Babian's logotype design incoprorates a tree to position Boyce as a company of permanence and growth.",
@@ -334,12 +329,12 @@ export const projects = [
     image: "./images/23.jpg",
     client: "Poems in Community",
     description: "Poetry workshops utilizing group therapy to process trauma.",
-    pictured: "The web site home page designed by Dekker Babian.",
+    pictured: "The web site home page design by Dekker Babian.",
 
-    scope: "Logotype, Branding, Identity, and Web Site",
+    scope: "Logotype, Branding, Identity, Web Site.",
 
     result:
-      "Potential clients easily access information and workshops with ease of navigation, compelling text and photography.",
+      "Clients access information and workshops with ease of navigation, compelling text and photography.",
   },
 
   {
@@ -381,10 +376,10 @@ export const projects = [
     pictured: "A lobby poster.",
 
     scope:
-      "Strategy, Naming, Logotype and Identity, Exhibits, posters, Web Site, Print, Premiums",
+      "Strategy, Naming, Logotype and Identity, Exhibits, Posters, Web Site, Print, Premiums.",
 
     result:
-      "Originally launched for professional development classes for bond traders, it was met with great success and expanded companywide.",
+      "Originally launched as professional development classes for bond traders, Knowledge Exchange met with great success and expanded companywide.",
   },
 
   {
@@ -394,7 +389,7 @@ export const projects = [
     description: "Stockbrokers on the floor of the NYSE.",
     pictured: "Logotype design by Dekker Babian.",
 
-    scope: "Branding strategy, logotype, marketing materials.",
+    scope: "Branding Strategy, Logotype, Marketing Materials.",
 
     result:
       'A logotype with three squares joined by the "Q" represent the 3 founding partners.',
@@ -406,12 +401,12 @@ export const projects = [
     client: "International Association of Lighting Designers",
     description:
       "The professional association of architectural lighting designers.",
-    pictured: "Logotype designed by Dekker Babian.",
+    pictured: "Logotype design by Dekker Babian.",
 
-    scope: "Branding, Logotype, Identity System",
+    scope: "Branding, Logotype, Identity System.",
 
     result:
-      "Increased visibility for the Lighting Designer's profession to their audience of architects, developers and builders.",
+      "Increased visibility for the Lighting Designer's profession targets an audience of architects, developers and builders.",
   },
 
   {
@@ -422,7 +417,7 @@ export const projects = [
       "A dealer of exceptional vintage furniture, objects and art. A subsidiary of Dekker Babian.",
     pictured: "Html email promoting a sale.",
 
-    scope: "Html Email, Press, Social Media, Web Site",
+    scope: "Html Email, Press, Social Media, Web Site.",
 
     result:
       "The campaign quickly grabs the reader's attention while sharing the depth of product offerings.",
@@ -433,12 +428,12 @@ export const projects = [
     image: "./images/30.jpg",
     client: "Calvin Bullock",
     description: "The oldest family of mutual funds in the United States.",
-    pictured: "Logotype designed by Dekker Babian.",
+    pictured: "Logotype design by Dekker Babian.",
 
-    scope: "Branding, Identity System, Marketing Materials",
+    scope: "Branding, Identity System, Marketing Materials.",
 
     result:
-      "Dekker Babian executed a successful marketing strategy for Calvin Bullock to compete with larger competitors.",
+      "Dekker Babian executed a successful marketing strategy for Calvin Bullock to compete with better known competitors.",
   },
 
   {
@@ -447,9 +442,10 @@ export const projects = [
     client: "Society of Coporate Secretaries",
     description: "A professional organization of Governance Professionals.",
     pictured:
-      "Promotional campaign graphics for their Essentials Seminar designed by Dekker Babian.",
+      "Promotional campaign graphics for an Essentials Seminar. Design by Dekker Babian.",
 
-    scope: "Branding, Identity System, Marketing, Web Site",
+    scope:
+      "Branding, Identity System, Marketing, Web Site, Print Materials, Advertisements.",
 
     result:
       "The marketing of a portfolio of annual conferences produced by the Society of Corporate Secretaries to their members, corporate governance professionals.",
@@ -461,9 +457,9 @@ export const projects = [
     client: "Bespoke Brooklyn",
     description:
       "A maker of handcrafted wreaths, store displays, toys, ornaments and Covid masks for sale in specialty stores.",
-    pictured: "Logotype designed by Dekker Babian.",
+    pictured: "Logotype design by Dekker Babian.",
 
-    scope: "Branding, Identity",
+    scope: "Branding, Identity.",
 
     result: "Reflects the creativity and quality of the products.",
   },
@@ -476,10 +472,10 @@ export const projects = [
       "A dealer of exceptional vintage furniture, objects and art. A subsidiary of Dekker Babian.",
 
     pictured:
-      "Townhouse Twitter page with promotional graphics developed by Dekker Babian.",
+      "The Townhouse.bz Twitter page promotional graphics by Dekker Babian.",
 
     scope:
-      "Social Media generates traffic to the Townhouse online retail store and and increase sales.",
+      "Social Media generates traffic to the Townhouse online retail store to increase sales.",
 
     result:
       "The social media posts catch the reader's attention and feature the depth of product offerings.",
@@ -493,7 +489,7 @@ export const projects = [
       "A dealer of exceptional vintage furniture, objects and art. A subsidiary of Dekker Babian.",
     pictured: "Product promotion",
 
-    scope: "Web site, product, social media",
+    scope: "Web Site, Product, Social Media.",
 
     result: "Dramatic photography, text and typography to promote sales.",
   },
@@ -504,14 +500,12 @@ export const projects = [
     client: "National Book Foundation + National Book Awards",
     description:
       "...to celebrate the best of American literature, to expand its audience, and to enhance the cultural value of good writing in America.",
-    pictured:
-      "Html email and web site holiday splash page designed by Dekker Babian.",
+    pictured: "Holiday Html Email and Web Splash Page design by Dekker Babian.",
 
     scope:
-      "Holiday html email and web splash page to promote National Book Award Winners",
+      "Adapting the graphic theme for the National Book Awards, the holiday email and web page promote the Book Award Winners.",
 
-    result:
-      "A holiday message that communicates quickly and provides easy links to 20 books.",
+    result: "A holiday message with easy links to 20 books.",
   },
 
   {
@@ -519,9 +513,9 @@ export const projects = [
     image: "./images/36.jpg",
     client: "MGM Design",
     description: "An interior design studio.",
-    pictured: "The web site home page and logotype by Dekker Babian.",
+    pictured: "The Web Site Home Page and Logotype by Dekker Babian.",
 
-    scope: "Branding, Identity Stystem, Web Site, Marketing",
+    scope: "Branding, Identity Stystem, Web Site, Marketing.",
 
     result: "The introduction of a premium interior design studio.",
   },
@@ -531,7 +525,7 @@ export const projects = [
     image: "./images/37.jpg",
     client: "Honest Diner",
     description: "No frills, good food, beach diner.",
-    pictured: "Logotype design by Dekker Babian",
+    pictured: "Logotype Design by Dekker Babian.",
 
     scope: "Logotype, Branding and Identity System, Collateral Materials.",
 
@@ -542,11 +536,11 @@ export const projects = [
     id: 38,
     image: "./images/38.jpg",
     client: "XL Re Latin America",
-    description: "A Latin American Reinsurance Company",
+    description: "A Latin American Reinsurance Company.",
     pictured:
-      "Annual Report with custom envelope, concept and design by Dekker Babian",
+      "Annual Report with custom envelope; concept and design by Dekker Babian",
 
-    scope: "Branding, Marketing, Capabilities Campaign",
+    scope: "Branding, Marketing, Capabilities Campaign.",
 
     result:
       "The annual report, printed in English, Portuguese and Spanish, markets capabilities to Latin American markets.",
@@ -559,10 +553,10 @@ export const projects = [
     description:
       "A dealer of exceptional vintage furniture, objects and art. A subsidiary of Dekker Babian.",
     pictured:
-      "Html email to promoting the show of Townhouse.bz artist, Kamilla Talbot.",
+      "Html email to promote the show of Townhouse.bz artist, Kamilla Talbot.",
 
     scope:
-      "Conception, implementation and promotion of the show signaling an important stage in Talbot's career.",
+      "Concept, Implementation and Promotion of the show to signal an important stage in Talbot's career.",
 
     result:
       "A crowded opening generated excitement and sales through the course of the show.",
