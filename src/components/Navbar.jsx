@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="nav-bar fixed w-full shadow-xl z-50">
-        <div className="max-w-screen-xl mx-auto py-2.5 px-5 lg:px-3 grid grid-cols-2 md:grid-cols-4 items-center">
+        <div className="max-w-screen-xl mx-auto py-2.5 px-5 lg:px-3 grid grid-cols-2 md:grid-cols-4 items-center h-[101px]">
           <div className="md:col-span-3 flex items-center space-x-3">
             <button onClick={() => setNavbarOpen((prev) => !prev)}>
               <div className="flex flex-col space-y-2.5 py-4">
@@ -34,7 +34,7 @@ const Navbar = () => {
           <nav
             className={
               navbarOpen
-                ? "absolute left-0 top-[73px] md:top-[102px] transition transform duration-200 opacity-100 translate-x-0"
+                ? "absolute left-0 top-[102px] transition transform duration-200 opacity-100 translate-x-0"
                 : "opacity-0 -translate-x-full h-0"
             }
           >
@@ -59,7 +59,7 @@ const Navbar = () => {
           </nav>
         </div>
       </div>
-      <div className="space h-[73px] md:h-[102px]"></div>
+      {/* <div className="space h-[73px] md:h-[102px]"></div> */}
     </div>
   );
 };
