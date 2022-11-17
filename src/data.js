@@ -18,13 +18,13 @@ export const links = [
 export const projects = [
   {
     id: 1,
-    image: "./images/1.gif",
+    image: "/images/1.gif",
     customClass: "no-hover",
   },
 
   {
     id: 2,
-    image: "./images/2.jpg",
+    image: "/images/2.jpg",
     client: "Bike New York 5 Boro Bike Tour",
     description:
       "America’s largest charitable bike ride with 40,000 bikers on a 40-mile course in NYC.",
@@ -39,7 +39,7 @@ export const projects = [
 
   {
     id: 3,
-    image: "./images/3.svg",
+    image: "/images/3.svg",
     client: "Goldman Sachs Community Teamworks",
     description:
       "An annual international program to facilitate two days of employee volunteerism in 35 cities.",
@@ -52,7 +52,7 @@ export const projects = [
 
   {
     id: 4,
-    image: "./images/4.jpg",
+    image: "/images/4.jpg",
     client: "Goldman Sachs Community Teamworks",
     description:
       "An international annual program to facilitate two days of employee volunteerism in 35 cities.",
@@ -67,7 +67,7 @@ export const projects = [
 
   {
     id: 5,
-    image: "./images/5.jpg",
+    image: "/images/5.jpg",
     client: "Memorial Sloan Kettering Cancer Center (MSK)",
     description: "Premiere cancer treatment and research facility.",
     pictured:
@@ -81,7 +81,7 @@ export const projects = [
 
   {
     id: 6,
-    image: "./images/6.svg",
+    image: "/images/6.svg",
     client: "National Book Foundation + National Book Awards",
     description:
       "...to celebrate the best of American literature, to expand its audience, and to enhance the cultural value of good writing in America.",
@@ -96,7 +96,7 @@ export const projects = [
 
   {
     id: 7,
-    image: "./images/7.jpg",
+    image: "/images/7.jpg",
     client: "Bike New York 5 Boro Bike Tour",
     description:
       "America's largest charitable bike ride with 40,000 bikers on a 40-mile course.",
@@ -110,7 +110,7 @@ export const projects = [
 
   {
     id: 8,
-    image: "./images/8.jpg",
+    image: "/images/8.jpg",
     client: "Jud Nelson, Sculptor",
     description:
       "A definitive web site featuring the 40-year career of Jud Nelson, world renown sculptor.",
@@ -124,7 +124,7 @@ export const projects = [
 
   {
     id: 9,
-    image: "./images/9.jpg",
+    image: "/images/9.jpg",
     client: "Memorial Sloan Kettering Cancer Center",
     description: "The premiere cancer treatment and research facility.",
     pictured: "A dedicated team of surgeons.",
@@ -138,7 +138,7 @@ export const projects = [
 
   {
     id: 10,
-    image: "./images/10.jpg",
+    image: "/images/10.jpg",
     client: "National Book Foundation + National Book Awards",
     description:
       " ...to celebrate the best of American literature, to expand its audience, and to enhance the cultural value of good writing in America.",
@@ -153,7 +153,7 @@ export const projects = [
 
   {
     id: 11,
-    image: "./images/11.jpg",
+    image: "/images/11.jpg",
     client: "National Book Foundation + National Book Awards",
     description:
       "...to celebrate the best of American literature, to expand its audience, and to enhance the cultural value of good writing in America.",
@@ -168,7 +168,7 @@ export const projects = [
 
   {
     id: 12,
-    image: "./images/12.svg",
+    image: "/images/12.svg",
     client: "Composers Recordings Incorporated",
     description: "A recording label dedicated to contemporary classical music.",
     pictured: "The logotype design by Dekker Babian.",
@@ -181,7 +181,7 @@ export const projects = [
 
   {
     id: 13,
-    image: "./images/13.jpg",
+    image: "/images/13.jpg",
     client: "Goldman Sachs Knowledge Exchange",
     description:
       "An internal marketing and branding campaign promotes continuing education classes.",
@@ -196,7 +196,7 @@ export const projects = [
 
   {
     id: 14,
-    image: "./images/14.svg",
+    image: "/images/14.svg",
     client: "Galt and Company",
     description: "Management Consultants to Fortune 500 companies.",
     pictured: "Logotype design by Dekker Babian.",
@@ -210,7 +210,7 @@ export const projects = [
 
   {
     id: 15,
-    image: "./images/15.jpg",
+    image: "/images/15.jpg",
     client: "Townhouse.bz + Susan Rowland",
     description: "A definitive exhibition of Susan Rowland's art career.",
     pictured: "Guests at the opening view the exhibition catalog.",
@@ -224,7 +224,7 @@ export const projects = [
 
   {
     id: 16,
-    image: "./images/16.jpg",
+    image: "/images/16.jpg",
     client: "Townhouse.bz + Susan Rowland",
     description:
       "A definitive exhibition of Susan Rowland's art career from 1980 through 2009.",
@@ -239,7 +239,7 @@ export const projects = [
 
   {
     id: 17,
-    image: "./images/17.jpg",
+    image: "/images/17.jpg",
     client: "Noisy Women",
     description:
       "An international organization promoting the empowerment of women.",
@@ -253,7 +253,7 @@ export const projects = [
 
   {
     id: 18,
-    image: "./images/18.jpg",
+    image: "/images/18.jpg",
     client: "Galt and Company",
     description: "Management consultants to Fortune 500 companies.",
     pictured:
@@ -268,7 +268,7 @@ export const projects = [
 
   {
     id: 19,
-    image: "./images/19.jpg",
+    image: "/images/19.jpg",
     client: "Townhouse.bz",
     description:
       "A dealer of exceptional vintage furniture, objects and art. A wholly owned subsidiary of Dekker Babian.",
@@ -283,7 +283,7 @@ export const projects = [
 
   {
     id: 20,
-    image: "./images/20.svg",
+    image: "/images/20.svg",
     client: "IntoTea",
     description:
       "A neighborhood tea shop, featuring over 100 varieties of tea, appeals to the discerning tea drinker.",
@@ -297,7 +297,7 @@ export const projects = [
 
   {
     id: 21,
-    image: "./images/21.jpg",
+    image: "/images/21.jpg",
     client: "Townhouse.bz",
     description:
       "A dealer of exceptional vintage furniture, objects and art. A subsidiary of Dekker Babian.",
@@ -312,7 +312,7 @@ export const projects = [
 
   {
     id: 22,
-    image: "./images/22.svg",
+    image: "/images/22.svg",
     client: "Boyce Management Company",
     description:
       "Property and asset management consulting to the commercial real estate market.",
@@ -326,7 +326,7 @@ export const projects = [
 
   {
     id: 23,
-    image: "./images/23.jpg",
+    image: "/images/23.jpg",
     client: "Poems in Community",
     description: "Poetry workshops utilizing group therapy to process trauma.",
     pictured: "The web site home page design by Dekker Babian.",
@@ -339,7 +339,7 @@ export const projects = [
 
   {
     id: 24,
-    image: "./images/24.svg",
+    image: "/images/24.svg",
     client: "Newport City",
     description:
       "A large commercial and residential real estate development on the Hudson River.",
@@ -354,7 +354,7 @@ export const projects = [
 
   {
     id: 25,
-    image: "./images/25.jpg",
+    image: "/images/25.jpg",
     client: "Townhouse.bz + Susan Rowland",
     description:
       "A definitive exhibition of Susan Rowland's art career from 1980 through 2009.",
@@ -369,7 +369,7 @@ export const projects = [
 
   {
     id: 26,
-    image: "./images/26.jpg",
+    image: "/images/26.jpg",
     client: "Goldman Sachs Knowledge Exchange",
     description:
       "An internal marketing and branding campaign to promote continuing education classes.",
@@ -384,7 +384,7 @@ export const projects = [
 
   {
     id: 27,
-    image: "./images/27.svg",
+    image: "/images/27.svg",
     client: "Quinton Group Ltd",
     description: "Stockbrokers on the floor of the NYSE.",
     pictured: "Logotype design by Dekker Babian.",
@@ -397,7 +397,7 @@ export const projects = [
 
   {
     id: 28,
-    image: "./images/28.jpg",
+    image: "/images/28.jpg",
     client: "International Association of Lighting Designers",
     description:
       "The professional association of architectural lighting designers.",
@@ -411,7 +411,7 @@ export const projects = [
 
   {
     id: 29,
-    image: "./images/29.jpg",
+    image: "/images/29.jpg",
     client: "Townhouse.bz",
     description:
       "A dealer of exceptional vintage furniture, objects and art. A subsidiary of Dekker Babian.",
@@ -425,7 +425,7 @@ export const projects = [
 
   {
     id: 30,
-    image: "./images/30.jpg",
+    image: "/images/30.jpg",
     client: "Calvin Bullock",
     description: "The oldest family of mutual funds in the United States.",
     pictured: "Logotype design by Dekker Babian.",
@@ -438,7 +438,7 @@ export const projects = [
 
   {
     id: 31,
-    image: "./images/31.jpg",
+    image: "/images/31.jpg",
     client: "Society of Coporate Secretaries",
     description: "A professional organization of Governance Professionals.",
     pictured:
@@ -453,7 +453,7 @@ export const projects = [
 
   {
     id: 32,
-    image: "./images/32.jpg",
+    image: "/images/32.jpg",
     client: "Bespoke Brooklyn",
     description:
       "A maker of handcrafted wreaths, store displays, toys, ornaments and Covid masks for sale in specialty stores.",
@@ -466,7 +466,7 @@ export const projects = [
 
   {
     id: 33,
-    image: "./images/33.jpg",
+    image: "/images/33.jpg",
     client: "Townhouse.bz",
     description:
       "A dealer of exceptional vintage furniture, objects and art. A subsidiary of Dekker Babian.",
@@ -483,7 +483,7 @@ export const projects = [
 
   {
     id: 34,
-    image: "./images/34.jpg",
+    image: "/images/34.jpg",
     client: "Townhouse.bz",
     description:
       "A dealer of exceptional vintage furniture, objects and art. A subsidiary of Dekker Babian.",
@@ -496,7 +496,7 @@ export const projects = [
 
   {
     id: 35,
-    image: "./images/35.jpg",
+    image: "/images/35.jpg",
     client: "National Book Foundation + National Book Awards",
     description:
       "...to celebrate the best of American literature, to expand its audience, and to enhance the cultural value of good writing in America.",
@@ -510,7 +510,7 @@ export const projects = [
 
   {
     id: 36,
-    image: "./images/36.jpg",
+    image: "/images/36.jpg",
     client: "MGM Design",
     description: "An interior design studio.",
     pictured: "The Web Site Home Page and Logotype by Dekker Babian.",
@@ -522,7 +522,7 @@ export const projects = [
 
   {
     id: 37,
-    image: "./images/37.jpg",
+    image: "/images/37.jpg",
     client: "Honest Diner",
     description: "No frills, good food, beach diner.",
     pictured: "Logotype Design by Dekker Babian.",
@@ -534,7 +534,7 @@ export const projects = [
 
   {
     id: 38,
-    image: "./images/38.jpg",
+    image: "/images/38.jpg",
     client: "XL Re Latin America",
     description: "A Latin American Reinsurance Company.",
     pictured:
@@ -548,7 +548,7 @@ export const projects = [
 
   {
     id: 39,
-    image: "./images/39.jpg",
+    image: "/images/39.jpg",
     client: "Townhouse.bz",
     description:
       "A dealer of exceptional vintage furniture, objects and art. A subsidiary of Dekker Babian.",
@@ -564,7 +564,7 @@ export const projects = [
 
   {
     id: 40,
-    image: "./images/40.gif",
+    image: "/images/40.gif",
     customClass: "no-hover",
   },
 ];
