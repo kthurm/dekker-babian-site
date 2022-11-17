@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="nav-bar fixed w-full shadow-xl z-50">
-        <div className="max-w-screen-xl mx-auto py-2.5 px-5 lg:px-3 grid grid-cols-2 md:grid-cols-4 items-center h-[101px]">
+        <div className="max-w-screen-xl mx-auto py-2.5 px-5 xl:px-1 grid grid-cols-2 md:grid-cols-4 items-center h-[101px]">
           <div className="md:col-span-3 flex items-center space-x-3">
             <button onClick={() => setNavbarOpen((prev) => !prev)}>
               <div className="flex flex-col space-y-2.5 py-4">
