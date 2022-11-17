@@ -7,7 +7,7 @@ const MeetOurClients = () => {
         <div className="text-primary font-bold">Clients</div>
         <div className="flex flex-col pb-8">
           <p className="text-secondary font-bold">
-            Clients Marketing, Advertising &amp; Capabilities Campaigns
+            Marketing, Advertising &amp; Capabilities Campaigns
           </p>
           <p>Delta Consulting Group</p>
           <p>Galt and Company</p>

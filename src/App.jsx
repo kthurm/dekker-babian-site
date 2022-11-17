@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Navbar />
-      <div className="flex-grow h-full">
+      <div className="flex-grow h-full mt-[100px]">
         <Routes>
           <Route index element={<Portfolio />} />
           <Route path="portfolio" element={<Portfolio />} />
