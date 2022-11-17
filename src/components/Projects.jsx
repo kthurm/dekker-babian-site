@@ -3,7 +3,7 @@ import Card from "../components/Card";
 
 const Projects = () => {
   return (
-    <div className="relative max-w-screen-xl mx-auto pb-10 mt-7 md:mt-0">
+    <div className="relative max-w-screen-xl mx-auto pb-10">
       <div className="z-10 flex flex-wrap justify-center">
         {projects.map(
           ({
