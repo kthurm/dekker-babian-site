@@ -9,17 +9,21 @@ const Navbar = () => {
   return (
     <div>
       <div className="nav-bar fixed w-full shadow-xl z-50">
-        <div className="max-w-screen-xl mx-auto py-2.5 px-5 xl:px-1 grid grid-cols-2 md:grid-cols-4 items-center h-[101px]">
+        <div className="max-w-screen-xl mx-auto md:py-2.5 pl-7 sm:px-5 xl:px-1 grid grid-cols-2 md:grid-cols-4 items-center h-[75px] md:h-[100px]">
           <div className="md:col-span-3 flex items-center space-x-3">
             <button onClick={() => setNavbarOpen((prev) => !prev)}>
-              <div className="flex flex-col space-y-2.5 py-4">
-                <div className="w-8 md:w-12 h-0.5 bg-primary"></div>
-                <div className="w-8 md:w-12 h-0.5 bg-primary"></div>
-                <div className="w-8 md:w-12 h-0.5 bg-primary"></div>
+              <div className="flex flex-col space-y-[5px] md:space-y-2.5 py-4">
+                <div className="w-7 md:w-12 h-0.5 bg-primary"></div>
+                <div className="w-7 md:w-12 h-0.5 bg-primary"></div>
+                <div className="w-7 md:w-12 h-0.5 bg-primary"></div>
               </div>
             </button>
             <Link to="/" className="" onClick={() => setNavbarOpen(false)}>
-              <img src={Logo} alt="DekkerBabian Logo" className="w-[200px]" />
+              <img
+                src={Logo}
+                alt="DekkerBabian Logo"
+                className="w-[180px] md:w-[200px]"
+              />
             </Link>
           </div>
           <div className="hidden sm:flex justify-end text-sm md:leading-[17px]">
@@ -34,11 +38,11 @@ const Navbar = () => {
           <nav
             className={
               navbarOpen
-                ? "absolute left-0 top-[102px] transition transform duration-200 opacity-100 translate-x-0"
+                ? "absolute left-0 top-[75px] md:top-[101px] transition transform duration-200 opacity-100 translate-x-0"
                 : "opacity-0 -translate-x-full h-0"
             }
           >
-            <ul className="bg-primary bg-opacity-80 flex flex-col pl-[78px] p-4 space-y-4 font-light text-sm">
+            <ul className="bg-primary bg-opacity-80 flex flex-col py-4 px-6 md:px-5 xl:pl-[65px] space-y-4 font-light text-sm">
               {links.map(({ name, path }, index) => {
                 return (
                   <li key={index}>
@@ -59,7 +63,6 @@ const Navbar = () => {
           </nav>
         </div>
       </div>
-      {/* <div className="space h-[73px] md:h-[102px]"></div> */}
     </div>
   );
 };
