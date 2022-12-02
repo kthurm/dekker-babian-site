@@ -11,7 +11,10 @@ const Navbar = () => {
       <div className="nav-bar fixed w-full shadow-xl z-50">
         <div className="max-w-screen-xl mx-auto md:py-2.5 pl-7 sm:px-5 xl:px-1 grid grid-cols-2 md:grid-cols-4 items-center h-[75px] md:h-[100px]">
           <div className="md:col-span-3 flex items-center space-x-3">
-            <button onClick={() => setNavbarOpen((prev) => !prev)}>
+            <button
+              onClick={() => setNavbarOpen((prev) => !prev)}
+              className="p-1"
+            >
               <div className="flex flex-col space-y-[5px] md:space-y-2.5 py-4">
                 <div className="w-7 md:w-12 h-0.5 bg-primary"></div>
                 <div className="w-7 md:w-12 h-0.5 bg-primary"></div>
