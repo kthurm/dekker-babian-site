@@ -29,7 +29,7 @@ const Card = (props) => {
               : "opacity-0 hidden"
           }
         >
-          <div className="flex flex-col space-y-2.5">
+          <div className="flex flex-col space-y-2.5 cursor-default">
             <div>
               <span className="inline text-secondary font-bold mr-1">
                 Client: {props.client}
@@ -52,7 +52,7 @@ const Card = (props) => {
             </div>
             <a
               href="mailto:marla@dekkerbabian.com"
-              className="block font-bold text-primary"
+              className="block font-bold text-primary cursor-pointer"
             >
               Contact us for more information
             </a>
